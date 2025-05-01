@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E01506"
+    tools:context=".ActivityTwoApp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUSTOMER DATA ENTRY"
+        android:textSize="40sp"
+        android:textColor="#0FBA12"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10sp"
+
+        />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textSize="30sp"
+            android:textColor="#0FBA12"
+            android:textStyle="bold"
+            android:layout_marginRight="20sp"
+            />
+
+        <EditText
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:hint="enter name"
+            android:id="@+id/CustomerNameEditText"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GENDER"
+            android:textSize="30sp"
+            android:textColor="#0FBA12"
+            android:textStyle="bold"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="20sp"
+
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:hint="enter gender"
+            android:id="@+id/CustomerGenderEditText"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGE"
+            android:textSize="30sp"
+            android:textColor="#0FBA12"
+            android:textStyle="bold"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="20sp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:hint="enter age"
+            android:id="@+id/CustomerAgeEditText"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCCUPATION"
+            android:textSize="30sp"
+            android:textColor="#0FBA12"
+            android:textStyle="bold"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="20sp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:hint="enter occupation"
+            android:id="@+id/CustomerOccupationEditText"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:textSize="30sp"
+            android:textColor="#0FBA12"
+            android:textStyle="bold"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="20sp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:hint="enter phone"
+            android:id="@+id/CustomerPhoneEditText"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCATION"
+            android:textSize="30sp"
+            android:textColor="#0FBA12"
+            android:textStyle="bold"
+            android:layout_marginRight="10sp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:hint="enter location"
+            android:id="@+id/CustomerLocEditText"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:id="@+id/SaveCustomerButton"
+            android:textSize="40sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            android:layout_marginRight="20sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:textSize="40sp"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:layout_marginRight="30sp"
+            />
+
+    </TableRow>
+
+</TableLayout>

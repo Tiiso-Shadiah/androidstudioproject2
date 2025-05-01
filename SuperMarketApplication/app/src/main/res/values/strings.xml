@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SuperMarketApp</string>
+    <array name="gender">
+        <item>MALE</item>
+        <item>FEMALE</item>
+    </array>
+</resources>

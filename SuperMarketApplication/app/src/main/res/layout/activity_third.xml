@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05A99A"
+    android:layout_gravity="fill_horizontal"
+    android:layout_margin="@dimen/cardview_default_radius"
+    android:maxWidth="@dimen/cardview_default_elevation"
+    tools:context=".ThirdActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40sp"
+        android:text="ORDER-DETAILS"
+        android:textAlignment="textStart"
+        android:textColor="#151615"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORDER-NO."
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CUSTOMER"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRICE"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUANTITY"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COST"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="onThirdSubmit"
+        />
+
+        <Button
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:onClick="onThirdReset"
+            android:text="RESET"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="onThirdNext"
+        />
+
+
+
+    </TableRow>
+
+</TableLayout>

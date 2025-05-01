@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#037E72"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN FROM HERE"
+        android:textSize="40sp"
+        android:textColor="#031606"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER-NAME"
+        android:textSize="30sp"
+        android:textColor="#151615"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30sp"
+        />
+    <EditText
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50sp"
+        android:layout_gravity="center_horizontal"
+        android:width="200sp"
+        android:background="#E0E2E9"
+        android:textColor="#202320"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="30sp"
+        android:textColor="#151615"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40sp"
+        />
+    <EditText
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40sp"
+        android:layout_gravity="center_horizontal"
+        android:width="200sp"
+        android:background="#E0E2E9"
+        android:textColor="#202320"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50sp"
+        android:onClick="onFirstLogin"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCEL"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50sp"
+        android:onClick="onFirstCancel"
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#08897C"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUSTOMER-DETAILS"
+        android:textSize="40sp"
+        android:textColor="#151615"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40sp"
+        />
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACC/NO."
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GENDER"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="40sp"
+            />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:background="#E0E2E9"
+            android:entries="@array/gender"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHONE"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCCUPATION"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textSize="30sp"
+            android:textColor="#100101"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10sp"
+            android:onClick="onCustomerSubmit"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10sp"
+            android:onClick="onCustomerReset"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10sp"
+            android:onClick="onCustomerNext"
+            />
+    </TableRow>
+
+</TableLayout>

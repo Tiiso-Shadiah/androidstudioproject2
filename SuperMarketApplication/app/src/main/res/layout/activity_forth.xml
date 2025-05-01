@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007166"
+    tools:context=".ForthActivity">
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30sp"
+        android:text="PAYMENT DETAILS"
+        android:textColor="#151615"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORDER-NO."
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRODUCT"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRICE"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUANTITY"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COST"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PAYMENT MODE"
+            android:textSize="30sp"
+            android:textColor="#101010"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="40sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40sp"
+            android:width="200sp"
+            android:background="#E0E2E9"
+            android:textColor="#202320"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10sp"
+            android:onClick="onForthSubmit"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10sp"
+            android:onClick="onForthReset"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginRight="10sp"
+            android:onClick="onForthNext"
+            />
+    </TableRow>
+</TableLayout>
